@@ -1,0 +1,2299 @@
+ant -f /Users/brendan/Desktop/charlie2 -Djavac.includes=charlie/server/GameServer.java -Dnb.internal.action.name=run.single -Drun.class=charlie.server.GameServer run-single
+init:
+deps-jar:
+Updating property file: /Users/brendan/Desktop/charlie2/build/built-jar.properties
+Compiling 1 source file to /Users/brendan/Desktop/charlie2/build/classes
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+compile-single:
+run-single:
+game server started
+house started
+House waiting for connection on port 1235
+got login
+validated ticket BB20B45FD4D95138 login successful!
+ServerAuthenticator sent ticket to client
+House accepted connection on port 1235
+House received message Arrival
+House invoking listener for Arrival
+validated ticket = BB20B45FD4D95138
+arrival from BVA.fios-router.home/192.168.1.153
+using scenario = 'charlie.card.Shoe01'
+shuffling burn index = 35
+shoe = charlie.card.Shoe01: CA D2 CK S10 S6 DJ CJ DK D6 D3 C7 S9 S3 D5 C9
+RealPlayer sending Ready to 192.168.1.153:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer sent successfully Ready to 192.168.1.153:8001
+House waiting for connection on port 1235
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:107279443CCC643A
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 0
+index = 1 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@594e937d card 1 = CA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 1
+index = 2 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = D2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 2
+index = 3 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@f453b48 card 1 = CK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 3
+index = 4 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 4
+index = 5 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@594e937d card 1 = S6
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 5
+index = 6 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = DJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 6
+index = 7 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@f453b48 card 1 = CJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 7
+index = 8 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@594e937d
+sending turn BVA.fios-router.home:RIGHT:16F5BE832111A5A8 to charlie.bot.server.RightBot@594e937d
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:16F5BE832111A5A8 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:16F5BE832111A5A8 to charlie.bot.server.LeftBot@f453b48
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 8
+index = 9 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:16F5BE832111A5A8 with D6
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 9
+index = 10 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:16F5BE832111A5A8 with D3
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 10
+index = 11 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:16F5BE832111A5A8 with C7
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot has busted
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:107279443CCC643A to charlie.bot.server.RightBot@594e937d
+sending turn BVA.fios-router.home:YOU:107279443CCC643A to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:107279443CCC643A to charlie.bot.server.LeftBot@f453b48
+charlie.bot.server.RightBot staying
+got invalid STAY player = charlie.bot.server.RightBot@594e937d
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 11
+index = 12 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:107279443CCC643A with S9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.LeftBot@f453b48
+sending turn BVA.fios-router.home:LEFT:308152D6E79541D2 to charlie.bot.server.RightBot@594e937d
+sending turn BVA.fios-router.home:LEFT:308152D6E79541D2 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:308152D6E79541D2 to charlie.bot.server.LeftBot@f453b48
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:308152D6E79541D2
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Push to 192.168.1.153:8001
+RealPlayer sent successfully Push to 192.168.1.153:8001
+charlie.bot.server.LeftBot pushed
+Game over. Shoe size = 40
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 40
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:2307A2710C26B55A
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 12
+index = 13 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@1c5fe890 card 1 = S3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 13
+index = 14 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = D5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 14
+index = 15 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@1a4925f6 card 1 = C9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 15
+index = 16 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 16
+index = 17 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@1c5fe890 card 1 = DQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 17
+index = 18 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = HJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 18
+index = 19 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@1a4925f6 card 1 = H8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 19
+index = 20 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@1c5fe890
+sending turn BVA.fios-router.home:RIGHT:199D49C30D3FC467 to charlie.bot.server.RightBot@1c5fe890
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:199D49C30D3FC467 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:199D49C30D3FC467 to charlie.bot.server.LeftBot@1a4925f6
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:199D49C30D3FC467
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:2307A2710C26B55A to charlie.bot.server.RightBot@1c5fe890
+sending turn BVA.fios-router.home:YOU:2307A2710C26B55A to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:2307A2710C26B55A to charlie.bot.server.LeftBot@1a4925f6
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:2307A2710C26B55A
+going to next hand
+active player = charlie.bot.server.LeftBot@1a4925f6
+sending turn BVA.fios-router.home:LEFT:DBC32146798BE21 to charlie.bot.server.RightBot@1c5fe890
+sending turn BVA.fios-router.home:LEFT:DBC32146798BE21 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:DBC32146798BE21 to charlie.bot.server.LeftBot@1a4925f6
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:DBC32146798BE21
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 20
+index = 21 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot lost the hand
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+charlie.bot.server.LeftBot lost the hand
+Game over. Shoe size = 31
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 31
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:18867FD68D830842
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 21
+index = 22 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@41c95e66 card 1 = H10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 22
+index = 23 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = S7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 23
+index = 24 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@48b1cc86 card 1 = S2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 24
+index = 25 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 25
+index = 26 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@41c95e66 card 1 = H3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 26
+index = 27 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = DA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 27
+index = 28 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@48b1cc86 card 1 = H2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 28
+index = 29 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@41c95e66
+sending turn BVA.fios-router.home:RIGHT:2E52D7755BA5809C to charlie.bot.server.RightBot@41c95e66
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:2E52D7755BA5809C to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:2E52D7755BA5809C to charlie.bot.server.LeftBot@48b1cc86
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:2E52D7755BA5809C
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:18867FD68D830842 to charlie.bot.server.RightBot@41c95e66
+sending turn BVA.fios-router.home:YOU:18867FD68D830842 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:18867FD68D830842 to charlie.bot.server.LeftBot@48b1cc86
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:18867FD68D830842
+going to next hand
+active player = charlie.bot.server.LeftBot@48b1cc86
+sending turn BVA.fios-router.home:LEFT:32F57B4EB660ACEC to charlie.bot.server.RightBot@41c95e66
+sending turn BVA.fios-router.home:LEFT:32F57B4EB660ACEC to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:32F57B4EB660ACEC to charlie.bot.server.LeftBot@48b1cc86
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 29
+index = 30 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:32F57B4EB660ACEC with SA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:32F57B4EB660ACEC
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 30
+index = 31 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+Game over. Shoe size = 21
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 21
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:7F827A780F3EEBEF
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 31
+index = 32 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@25cb193b card 1 = S8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 32
+index = 33 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = C5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 33
+index = 34 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@2d914498 card 1 = D7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 34
+index = 35 burnIndex = 35 shuffle needed = true
+RealPlayer sending Shuffle to 192.168.1.153:8001
+RealPlayer sent successfully Shuffle to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 35
+dealing to charlie.bot.server.RightBot@25cb193b card 1 = C4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 36
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = HA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 37
+dealing to charlie.bot.server.LeftBot@2d914498 card 1 = CQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 38
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@25cb193b
+sending turn BVA.fios-router.home:RIGHT:222C99B6B1D0C046 to charlie.bot.server.RightBot@25cb193b
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:222C99B6B1D0C046 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:222C99B6B1D0C046 to charlie.bot.server.LeftBot@2d914498
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 39
+hit hid = BVA.fios-router.home:RIGHT:222C99B6B1D0C046 with D9
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:7F827A780F3EEBEF to charlie.bot.server.RightBot@25cb193b
+sending turn BVA.fios-router.home:YOU:7F827A780F3EEBEF to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:7F827A780F3EEBEF to charlie.bot.server.LeftBot@2d914498
+charlie.bot.server.RightBot staying
+got invalid STAY player = charlie.bot.server.RightBot@25cb193b
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 40
+hit hid = BVA.fios-router.home:YOU:7F827A780F3EEBEF with C2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 41
+hit hid = BVA.fios-router.home:YOU:7F827A780F3EEBEF with H9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:7F827A780F3EEBEF
+going to next hand
+active player = charlie.bot.server.LeftBot@2d914498
+sending turn BVA.fios-router.home:LEFT:1071E84CB5623337 to charlie.bot.server.RightBot@25cb193b
+sending turn BVA.fios-router.home:LEFT:1071E84CB5623337 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:1071E84CB5623337 to charlie.bot.server.LeftBot@2d914498
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:1071E84CB5623337
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 42
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+shuffling burn index = 36
+Game over. Shoe size = 52
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 52
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:14B4E6E6869A452E
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 36 index = 0
+index = 1 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.RightBot@74fef1e6 card 1 = SQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 1
+index = 2 burnIndex = 36 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = C10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 2
+index = 3 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@2d6de03b card 1 = S9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 3
+index = 4 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 4
+index = 5 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.RightBot@74fef1e6 card 1 = H9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 5
+index = 6 burnIndex = 36 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = H5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 6
+index = 7 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@2d6de03b card 1 = CK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 7
+index = 8 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@74fef1e6
+sending turn BVA.fios-router.home:RIGHT:9C8B16AADE50AF0 to charlie.bot.server.RightBot@74fef1e6
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:9C8B16AADE50AF0 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:9C8B16AADE50AF0 to charlie.bot.server.LeftBot@2d6de03b
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:9C8B16AADE50AF0
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:14B4E6E6869A452E to charlie.bot.server.RightBot@74fef1e6
+sending turn BVA.fios-router.home:YOU:14B4E6E6869A452E to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:14B4E6E6869A452E to charlie.bot.server.LeftBot@2d6de03b
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:14B4E6E6869A452E
+going to next hand
+active player = charlie.bot.server.LeftBot@2d6de03b
+sending turn BVA.fios-router.home:LEFT:6BB20772BDE2269 to charlie.bot.server.RightBot@74fef1e6
+sending turn BVA.fios-router.home:LEFT:6BB20772BDE2269 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:6BB20772BDE2269 to charlie.bot.server.LeftBot@2d6de03b
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:6BB20772BDE2269
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 8
+index = 9 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+Game over. Shoe size = 43
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 43
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:C9849513A1F20AD
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 36 index = 9
+index = 10 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.RightBot@2332a95b card 1 = S3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 10
+index = 11 burnIndex = 36 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = C8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 11
+index = 12 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@7a2fdaa9 card 1 = C2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 12
+index = 13 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 13
+index = 14 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.RightBot@2332a95b card 1 = C9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 14
+index = 15 burnIndex = 36 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = S6
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 15
+index = 16 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@7a2fdaa9 card 1 = HJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 16
+index = 17 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@2332a95b
+sending turn BVA.fios-router.home:RIGHT:555F016B08A729DB to charlie.bot.server.RightBot@2332a95b
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:555F016B08A729DB to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:555F016B08A729DB to charlie.bot.server.LeftBot@7a2fdaa9
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 36 index = 17
+index = 18 burnIndex = 36 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:555F016B08A729DB with C7
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:555F016B08A729DB
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:C9849513A1F20AD to charlie.bot.server.RightBot@2332a95b
+sending turn BVA.fios-router.home:YOU:C9849513A1F20AD to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:C9849513A1F20AD to charlie.bot.server.LeftBot@7a2fdaa9
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:C9849513A1F20AD
+going to next hand
+active player = charlie.bot.server.LeftBot@7a2fdaa9
+sending turn BVA.fios-router.home:LEFT:488A7D1A94B0DEB8 to charlie.bot.server.RightBot@2332a95b
+sending turn BVA.fios-router.home:LEFT:488A7D1A94B0DEB8 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:488A7D1A94B0DEB8 to charlie.bot.server.LeftBot@7a2fdaa9
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 36 index = 18
+index = 19 burnIndex = 36 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:488A7D1A94B0DEB8 with H6
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:488A7D1A94B0DEB8
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 19
+index = 20 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 20
+index = 21 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+Game over. Shoe size = 31
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 31
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:7E7A44CBEBE9CE6
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 36 index = 21
+index = 22 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.RightBot@128e7481 card 1 = CJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 22
+index = 23 burnIndex = 36 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = D10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 23
+index = 24 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@16bf0639 card 1 = HQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 24
+index = 25 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 25
+index = 26 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.RightBot@128e7481 card 1 = CA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot got Blackjack
+RealPlayer sending Blackjack to 192.168.1.153:8001
+RealPlayer sent successfully Blackjack to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 26
+index = 27 burnIndex = 36 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = D2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 27
+index = 28 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@16bf0639 card 1 = SA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Blackjack to 192.168.1.153:8001
+RealPlayer sent successfully Blackjack to 192.168.1.153:8001
+charlie.bot.server.LeftBot got Blackjack
+cards size = 52 burn index = 36 index = 28
+index = 29 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@128e7481
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:7E7A44CBEBE9CE6 to charlie.bot.server.RightBot@128e7481
+sending turn BVA.fios-router.home:YOU:7E7A44CBEBE9CE6 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:7E7A44CBEBE9CE6 to charlie.bot.server.LeftBot@16bf0639
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 36 index = 29
+index = 30 burnIndex = 36 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:7E7A44CBEBE9CE6 with D9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.LeftBot@16bf0639
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 30
+index = 31 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+Game over. Shoe size = 21
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 21
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:5429CB8ADDCAD4B8
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 36 index = 31
+index = 32 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5fd0d1b0 card 1 = H10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 32
+index = 33 burnIndex = 36 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = HA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 33
+index = 34 burnIndex = 36 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@5dcbc6c2 card 1 = S7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 34
+index = 35 burnIndex = 36 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 35
+index = 36 burnIndex = 36 shuffle needed = true
+RealPlayer sending Shuffle to 192.168.1.153:8001
+RealPlayer sent successfully Shuffle to 192.168.1.153:8001
+dealing to charlie.bot.server.RightBot@5fd0d1b0 card 1 = DJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 36
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = H4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 37
+dealing to charlie.bot.server.LeftBot@5dcbc6c2 card 1 = S2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 38
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@5fd0d1b0
+sending turn BVA.fios-router.home:RIGHT:74CB1EEE93CE1A7E to charlie.bot.server.RightBot@5fd0d1b0
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:74CB1EEE93CE1A7E to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:74CB1EEE93CE1A7E to charlie.bot.server.LeftBot@5dcbc6c2
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:74CB1EEE93CE1A7E
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:5429CB8ADDCAD4B8 to charlie.bot.server.RightBot@5fd0d1b0
+sending turn BVA.fios-router.home:YOU:5429CB8ADDCAD4B8 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:5429CB8ADDCAD4B8 to charlie.bot.server.LeftBot@5dcbc6c2
+RealPlayer accepted connection on port 8501
+RealPlayer received message DoubleDown
+RealPlayer invoking listener for DoubleDown
+RealPlayer received request = DoubleDown
+got double down amt = 200.0 hid = BVA.fios-router.home:YOU:5429CB8ADDCAD4B8
+cards size = 52 burn index = 36 index = 39
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.LeftBot@5dcbc6c2
+sending turn BVA.fios-router.home:LEFT:B58FD1CE3C6387D to charlie.bot.server.RightBot@5fd0d1b0
+sending turn BVA.fios-router.home:LEFT:B58FD1CE3C6387D to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:B58FD1CE3C6387D to charlie.bot.server.LeftBot@5dcbc6c2
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot doubling down
+got double down amt = 5.0 hid = BVA.fios-router.home:LEFT:B58FD1CE3C6387D
+cards size = 52 burn index = 36 index = 40
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 36 index = 41
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+shuffling burn index = 35
+Game over. Shoe size = 52
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 52
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:1355CD98F5609FCA
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 0
+index = 1 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5c4b5ec8 card 1 = D4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 1
+index = 2 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = C9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 2
+index = 3 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@6c019fb9 card 1 = SQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 3
+index = 4 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 4
+index = 5 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5c4b5ec8 card 1 = H8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 5
+index = 6 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = D5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 6
+index = 7 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@6c019fb9 card 1 = C4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 7
+index = 8 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@5c4b5ec8
+sending turn BVA.fios-router.home:RIGHT:439DA06AE95B5AC0 to charlie.bot.server.RightBot@5c4b5ec8
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:439DA06AE95B5AC0 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:439DA06AE95B5AC0 to charlie.bot.server.LeftBot@6c019fb9
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 8
+index = 9 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:439DA06AE95B5AC0 with SK
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot has busted
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:1355CD98F5609FCA to charlie.bot.server.RightBot@5c4b5ec8
+sending turn BVA.fios-router.home:YOU:1355CD98F5609FCA to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:1355CD98F5609FCA to charlie.bot.server.LeftBot@6c019fb9
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 9
+index = 10 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:1355CD98F5609FCA with D6
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:1355CD98F5609FCA
+going to next hand
+active player = charlie.bot.server.LeftBot@6c019fb9
+sending turn BVA.fios-router.home:LEFT:79FAF2089F515C2C to charlie.bot.server.RightBot@5c4b5ec8
+sending turn BVA.fios-router.home:LEFT:79FAF2089F515C2C to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:79FAF2089F515C2C to charlie.bot.server.LeftBot@6c019fb9
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got invalid STAY player = charlie.bot.server.RightBot@5c4b5ec8
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 10
+index = 11 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:79FAF2089F515C2C with H2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 11
+index = 12 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:79FAF2089F515C2C with H4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:79FAF2089F515C2C
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 12
+index = 13 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+Game over. Shoe size = 39
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 39
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:66DAB225EAE35627
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 13
+index = 14 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@7569e8dc card 1 = H5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 14
+index = 15 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = DK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 15
+index = 16 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@2eb85b8b card 1 = S6
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 16
+index = 17 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 17
+index = 18 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@7569e8dc card 1 = D8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 18
+index = 19 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = CJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 19
+index = 20 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@2eb85b8b card 1 = C3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 20
+index = 21 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@7569e8dc
+sending turn BVA.fios-router.home:RIGHT:1FB0F1255B636B41 to charlie.bot.server.RightBot@7569e8dc
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:1FB0F1255B636B41 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:1FB0F1255B636B41 to charlie.bot.server.LeftBot@2eb85b8b
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 21
+index = 22 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:1FB0F1255B636B41 with S2
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 22
+index = 23 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:1FB0F1255B636B41 with S7
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot has busted
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:66DAB225EAE35627 to charlie.bot.server.RightBot@7569e8dc
+sending turn BVA.fios-router.home:YOU:66DAB225EAE35627 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:66DAB225EAE35627 to charlie.bot.server.LeftBot@2eb85b8b
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:66DAB225EAE35627
+going to next hand
+active player = charlie.bot.server.LeftBot@2eb85b8b
+sending turn BVA.fios-router.home:LEFT:67D617433C23E866 to charlie.bot.server.RightBot@7569e8dc
+sending turn BVA.fios-router.home:LEFT:67D617433C23E866 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:67D617433C23E866 to charlie.bot.server.LeftBot@2eb85b8b
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got invalid STAY player = charlie.bot.server.RightBot@7569e8dc
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 23
+index = 24 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:67D617433C23E866 with CK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:67D617433C23E866
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+Game over. Shoe size = 28
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 28
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:95CE6865CD420E7
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 24
+index = 25 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5562b1d card 1 = CQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 25
+index = 26 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = CA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 26
+index = 27 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@60d9f37a card 1 = DQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 27
+index = 28 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 28
+index = 29 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5562b1d card 1 = S9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 29
+index = 30 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = S10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Blackjack to 192.168.1.153:8001
+RealPlayer sent successfully Blackjack to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 30
+index = 31 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@60d9f37a card 1 = SA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Blackjack to 192.168.1.153:8001
+RealPlayer sent successfully Blackjack to 192.168.1.153:8001
+charlie.bot.server.LeftBot got Blackjack
+cards size = 52 burn index = 35 index = 31
+index = 32 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@5562b1d
+sending turn BVA.fios-router.home:RIGHT:6F347ABA26C1702F to charlie.bot.server.RightBot@5562b1d
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:6F347ABA26C1702F to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:6F347ABA26C1702F to charlie.bot.server.LeftBot@60d9f37a
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:6F347ABA26C1702F
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+going to next hand
+active player = charlie.bot.server.LeftBot@60d9f37a
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 32
+index = 33 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+Game over. Shoe size = 19
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 19
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:4EEC6DD22491757
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 33
+index = 34 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5889e40b card 1 = S8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 34
+index = 35 burnIndex = 35 shuffle needed = true
+RealPlayer sending Shuffle to 192.168.1.153:8001
+RealPlayer sent successfully Shuffle to 192.168.1.153:8001
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = HA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 35
+dealing to charlie.bot.server.LeftBot@14adc1e3 card 1 = C2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 36
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 37
+dealing to charlie.bot.server.RightBot@5889e40b card 1 = S4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 38
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = H9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 39
+dealing to charlie.bot.server.LeftBot@14adc1e3 card 1 = SJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 40
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@5889e40b
+sending turn BVA.fios-router.home:RIGHT:474E5DB59CB5004F to charlie.bot.server.RightBot@5889e40b
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:474E5DB59CB5004F to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:474E5DB59CB5004F to charlie.bot.server.LeftBot@14adc1e3
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:474E5DB59CB5004F
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:4EEC6DD22491757 to charlie.bot.server.RightBot@5889e40b
+sending turn BVA.fios-router.home:YOU:4EEC6DD22491757 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:4EEC6DD22491757 to charlie.bot.server.LeftBot@14adc1e3
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:4EEC6DD22491757
+going to next hand
+active player = charlie.bot.server.LeftBot@14adc1e3
+sending turn BVA.fios-router.home:LEFT:4012B2E85D1CF361 to charlie.bot.server.RightBot@5889e40b
+sending turn BVA.fios-router.home:LEFT:4012B2E85D1CF361 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:4012B2E85D1CF361 to charlie.bot.server.LeftBot@14adc1e3
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:4012B2E85D1CF361
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 41
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot lost the hand
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+charlie.bot.server.LeftBot lost the hand
+shuffling burn index = 35
+Game over. Shoe size = 52
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 52
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:5B05ED09B1EDB1E6
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 0
+index = 1 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@4d910023 card 1 = CQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 1
+index = 2 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = H2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 2
+index = 3 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@71954e18 card 1 = C4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 3
+index = 4 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 4
+index = 5 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@4d910023 card 1 = C9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 5
+index = 6 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = S8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 6
+index = 7 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@71954e18 card 1 = D10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 7
+index = 8 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@4d910023
+sending turn BVA.fios-router.home:RIGHT:1111084EDB35B654 to charlie.bot.server.RightBot@4d910023
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:1111084EDB35B654 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:1111084EDB35B654 to charlie.bot.server.LeftBot@71954e18
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:1111084EDB35B654
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:5B05ED09B1EDB1E6 to charlie.bot.server.RightBot@4d910023
+sending turn BVA.fios-router.home:YOU:5B05ED09B1EDB1E6 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:5B05ED09B1EDB1E6 to charlie.bot.server.LeftBot@71954e18
+RealPlayer accepted connection on port 8501
+RealPlayer received message DoubleDown
+RealPlayer invoking listener for DoubleDown
+RealPlayer received request = DoubleDown
+got double down amt = 200.0 hid = BVA.fios-router.home:YOU:5B05ED09B1EDB1E6
+cards size = 52 burn index = 35 index = 8
+index = 9 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.LeftBot@71954e18
+sending turn BVA.fios-router.home:LEFT:75179437879B428C to charlie.bot.server.RightBot@4d910023
+sending turn BVA.fios-router.home:LEFT:75179437879B428C to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:75179437879B428C to charlie.bot.server.LeftBot@71954e18
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:75179437879B428C
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 9
+index = 10 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot lost the hand
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+charlie.bot.server.LeftBot lost the hand
+Game over. Shoe size = 42
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 42
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:55DA4F80A9761C25
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 10
+index = 11 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5119b1f4 card 1 = SJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 11
+index = 12 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = S9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 12
+index = 13 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@591953c9 card 1 = S5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 13
+index = 14 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 14
+index = 15 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5119b1f4 card 1 = CK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 15
+index = 16 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = C10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 16
+index = 17 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@591953c9 card 1 = S4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 17
+index = 18 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@5119b1f4
+sending turn BVA.fios-router.home:RIGHT:73D771FACD97FDF to charlie.bot.server.RightBot@5119b1f4
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:73D771FACD97FDF to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:73D771FACD97FDF to charlie.bot.server.LeftBot@591953c9
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:73D771FACD97FDF
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:55DA4F80A9761C25 to charlie.bot.server.RightBot@5119b1f4
+sending turn BVA.fios-router.home:YOU:55DA4F80A9761C25 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:55DA4F80A9761C25 to charlie.bot.server.LeftBot@591953c9
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:55DA4F80A9761C25
+going to next hand
+active player = charlie.bot.server.LeftBot@591953c9
+sending turn BVA.fios-router.home:LEFT:408454095DC778F7 to charlie.bot.server.RightBot@5119b1f4
+sending turn BVA.fios-router.home:LEFT:408454095DC778F7 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:408454095DC778F7 to charlie.bot.server.LeftBot@591953c9
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 18
+index = 19 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:408454095DC778F7 with S3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 19
+index = 20 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:408454095DC778F7 with H4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 20
+index = 21 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:408454095DC778F7 with HK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+charlie.bot.server.LeftBot has busted
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 21
+index = 22 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot pushed
+RealPlayer sending Push to 192.168.1.153:8001
+RealPlayer sent successfully Push to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+Game over. Shoe size = 30
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 30
+charlie.bot.server.LeftBot staying
+got invalid STAY player = charlie.bot.server.LeftBot@591953c9
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:54299327659D6B81
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 22
+index = 23 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@78d6032b card 1 = S7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 23
+index = 24 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = DJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 24
+index = 25 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@217d2e3e card 1 = S10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 25
+index = 26 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 26
+index = 27 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@78d6032b card 1 = D3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 27
+index = 28 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = H8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 28
+index = 29 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@217d2e3e card 1 = C7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 29
+index = 30 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@78d6032b
+sending turn BVA.fios-router.home:RIGHT:243E887B5E492E3A to charlie.bot.server.RightBot@78d6032b
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:243E887B5E492E3A to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:243E887B5E492E3A to charlie.bot.server.LeftBot@217d2e3e
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot doubling down
+got double down amt = 5.0 hid = BVA.fios-router.home:RIGHT:243E887B5E492E3A
+cards size = 52 burn index = 35 index = 30
+index = 31 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:54299327659D6B81 to charlie.bot.server.RightBot@78d6032b
+sending turn BVA.fios-router.home:YOU:54299327659D6B81 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:54299327659D6B81 to charlie.bot.server.LeftBot@217d2e3e
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:54299327659D6B81
+going to next hand
+active player = charlie.bot.server.LeftBot@217d2e3e
+sending turn BVA.fios-router.home:LEFT:408F53F6CF1812D5 to charlie.bot.server.RightBot@78d6032b
+sending turn BVA.fios-router.home:LEFT:408F53F6CF1812D5 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:408F53F6CF1812D5 to charlie.bot.server.LeftBot@217d2e3e
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:408F53F6CF1812D5
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 31
+index = 32 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot lost the hand
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+charlie.bot.server.LeftBot lost the hand
+Game over. Shoe size = 20
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 20
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:681DE78CF9E44F79
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 32
+index = 33 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@5fa1e0f5 card 1 = D9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 33
+index = 34 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = HJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 34
+index = 35 burnIndex = 35 shuffle needed = true
+RealPlayer sending Shuffle to 192.168.1.153:8001
+RealPlayer sent successfully Shuffle to 192.168.1.153:8001
+dealing to charlie.bot.server.LeftBot@390356fb card 1 = C5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 35
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 36
+dealing to charlie.bot.server.RightBot@5fa1e0f5 card 1 = CJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 37
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = HQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 38
+dealing to charlie.bot.server.LeftBot@390356fb card 1 = C6
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 39
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@5fa1e0f5
+sending turn BVA.fios-router.home:RIGHT:18580CCB1B66510D to charlie.bot.server.RightBot@5fa1e0f5
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:18580CCB1B66510D to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:18580CCB1B66510D to charlie.bot.server.LeftBot@390356fb
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:18580CCB1B66510D
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:681DE78CF9E44F79 to charlie.bot.server.RightBot@5fa1e0f5
+sending turn BVA.fios-router.home:YOU:681DE78CF9E44F79 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:681DE78CF9E44F79 to charlie.bot.server.LeftBot@390356fb
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for BVA.fios-router.home:YOU:681DE78CF9E44F79
+going to next hand
+active player = charlie.bot.server.LeftBot@390356fb
+sending turn BVA.fios-router.home:LEFT:5365FC7624211B81 to charlie.bot.server.RightBot@5fa1e0f5
+sending turn BVA.fios-router.home:LEFT:5365FC7624211B81 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:5365FC7624211B81 to charlie.bot.server.LeftBot@390356fb
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 40
+hit hid = BVA.fios-router.home:LEFT:5365FC7624211B81 with C2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 41
+hit hid = BVA.fios-router.home:LEFT:5365FC7624211B81 with DK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+charlie.bot.server.LeftBot has busted
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+shuffling burn index = 35
+Game over. Shoe size = 52
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 52
+charlie.bot.server.LeftBot staying
+got invalid STAY player = charlie.bot.server.LeftBot@390356fb
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:100534D42CB6383E
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 0
+index = 1 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@61ab7b2f card 1 = D7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 1
+index = 2 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = CJ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 2
+index = 3 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@36c8b984 card 1 = H7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 3
+index = 4 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 4
+index = 5 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@61ab7b2f card 1 = DA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 5
+index = 6 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = S5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 6
+index = 7 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@36c8b984 card 1 = D6
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 7
+index = 8 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@61ab7b2f
+sending turn BVA.fios-router.home:RIGHT:7CE2D5D2BC71E4BC to charlie.bot.server.RightBot@61ab7b2f
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:7CE2D5D2BC71E4BC to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:7CE2D5D2BC71E4BC to charlie.bot.server.LeftBot@36c8b984
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:7CE2D5D2BC71E4BC
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:100534D42CB6383E to charlie.bot.server.RightBot@61ab7b2f
+sending turn BVA.fios-router.home:YOU:100534D42CB6383E to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:100534D42CB6383E to charlie.bot.server.LeftBot@36c8b984
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 8
+index = 9 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:100534D42CB6383E with S7
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.LeftBot@36c8b984
+sending turn BVA.fios-router.home:LEFT:3C4E4CF7D8F0F86C to charlie.bot.server.RightBot@61ab7b2f
+sending turn BVA.fios-router.home:LEFT:3C4E4CF7D8F0F86C to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:3C4E4CF7D8F0F86C to charlie.bot.server.LeftBot@36c8b984
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 9
+index = 10 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:3C4E4CF7D8F0F86C with C3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 10
+index = 11 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:LEFT:3C4E4CF7D8F0F86C with H10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+charlie.bot.server.LeftBot has busted
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+Game over. Shoe size = 41
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 41
+charlie.bot.server.LeftBot staying
+got invalid STAY player = charlie.bot.server.LeftBot@36c8b984
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:1A4E70894D9959F1
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 11
+index = 12 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@e67c733 card 1 = S3
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 12
+index = 13 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = DQ
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 13
+index = 14 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@544f96b0 card 1 = H8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 14
+index = 15 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 15
+index = 16 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@e67c733 card 1 = HA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 16
+index = 17 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = H5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 17
+index = 18 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@544f96b0 card 1 = D10
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 18
+index = 19 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@e67c733
+sending turn BVA.fios-router.home:RIGHT:BEB4DF7388C4250 to charlie.bot.server.RightBot@e67c733
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:BEB4DF7388C4250 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:BEB4DF7388C4250 to charlie.bot.server.LeftBot@544f96b0
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot hitting
+cards size = 52 burn index = 35 index = 19
+index = 20 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:RIGHT:BEB4DF7388C4250 with H3
+charlie.bot.server.RightBot starting turn
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:BEB4DF7388C4250
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:1A4E70894D9959F1 to charlie.bot.server.RightBot@e67c733
+sending turn BVA.fios-router.home:YOU:1A4E70894D9959F1 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:1A4E70894D9959F1 to charlie.bot.server.LeftBot@544f96b0
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 20
+index = 21 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:1A4E70894D9959F1 with SK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.LeftBot@544f96b0
+sending turn BVA.fios-router.home:LEFT:5A7EE02643426125 to charlie.bot.server.RightBot@e67c733
+sending turn BVA.fios-router.home:LEFT:5A7EE02643426125 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:5A7EE02643426125 to charlie.bot.server.LeftBot@544f96b0
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot staying
+got STAY for BVA.fios-router.home:LEFT:5A7EE02643426125
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 21
+index = 22 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 22
+index = 23 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot won the hand
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+RealPlayer sending Win to 192.168.1.153:8001
+RealPlayer sent successfully Win to 192.168.1.153:8001
+charlie.bot.server.LeftBot won the hand
+Game over. Shoe size = 29
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 29
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 100.0
+got new bet = 100.0 side bet = 0.0 from BVA.fios-router.home/192.168.1.153 for hid = BVA.fios-router.home:YOU:ABC2990C9C2E88F
+attempting to spawn bot huey class = charlie.bot.server.RightBot
+Seating charlie.bot.server.RightBot at seat: RIGHT
+successfully spawned bot = huey
+attempting to spawn bot dewey class = charlie.bot.server.LeftBot
+Seating charlie.bot.server.LeftBot at seat: LEFT
+successfully spawned bot = dewey
+starting a game
+hands at table + dealer = 4
+Starting new game
+RealPlayer sending GameStart to 192.168.1.153:8001
+RealPlayer sent successfully GameStart to 192.168.1.153:8001
+Starting new game
+cards size = 52 burn index = 35 index = 23
+index = 24 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@4fe6a07c card 1 = D8
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 24
+index = 25 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = C2
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 25
+index = 26 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@335f384e card 1 = DK
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 26
+index = 27 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 27
+index = 28 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.RightBot@4fe6a07c card 1 = CA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 28
+index = 29 burnIndex = 35 shuffle needed = false
+dealing to BVA.fios-router.home/192.168.1.153 card 1 = SA
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 29
+index = 30 burnIndex = 35 shuffle needed = false
+dealing to charlie.bot.server.LeftBot@335f384e card 1 = C5
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 30
+index = 31 burnIndex = 35 shuffle needed = false
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.RightBot@4fe6a07c
+sending turn BVA.fios-router.home:RIGHT:846379A76A44796 to charlie.bot.server.RightBot@4fe6a07c
+charlie.bot.server.RightBot starting turn
+sending turn BVA.fios-router.home:RIGHT:846379A76A44796 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:RIGHT:846379A76A44796 to charlie.bot.server.LeftBot@335f384e
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.RightBot staying
+got STAY for BVA.fios-router.home:RIGHT:846379A76A44796
+going to next hand
+active player = BVA.fios-router.home/192.168.1.153
+sending turn BVA.fios-router.home:YOU:ABC2990C9C2E88F to charlie.bot.server.RightBot@4fe6a07c
+sending turn BVA.fios-router.home:YOU:ABC2990C9C2E88F to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:YOU:ABC2990C9C2E88F to charlie.bot.server.LeftBot@335f384e
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 31
+index = 32 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:ABC2990C9C2E88F with D9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 32
+index = 33 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:ABC2990C9C2E88F with D4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 52 burn index = 35 index = 33
+index = 34 burnIndex = 35 shuffle needed = false
+hit hid = BVA.fios-router.home:YOU:ABC2990C9C2E88F with S4
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+RealPlayer sending Charlie to 192.168.1.153:8001
+RealPlayer sent successfully Charlie to 192.168.1.153:8001
+going to next hand
+active player = charlie.bot.server.LeftBot@335f384e
+sending turn BVA.fios-router.home:LEFT:4AAF6BE6E8A124F9 to charlie.bot.server.RightBot@4fe6a07c
+sending turn BVA.fios-router.home:LEFT:4AAF6BE6E8A124F9 to BVA.fios-router.home/192.168.1.153
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+sending turn BVA.fios-router.home:LEFT:4AAF6BE6E8A124F9 to charlie.bot.server.LeftBot@335f384e
+charlie.bot.server.LeftBot starting turn
+RealPlayer waiting for connection on port 8501
+charlie.bot.server.LeftBot hitting
+cards size = 52 burn index = 35 index = 34
+index = 35 burnIndex = 35 shuffle needed = true
+RealPlayer sending Shuffle to 192.168.1.153:8001
+RealPlayer sent successfully Shuffle to 192.168.1.153:8001
+hit hid = BVA.fios-router.home:LEFT:4AAF6BE6E8A124F9 with H9
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.LeftBot starting turn
+RealPlayer sending Bust to 192.168.1.153:8001
+RealPlayer sent successfully Bust to 192.168.1.153:8001
+charlie.bot.server.LeftBot has busted
+going to next hand
+RealPlayer sending Play to 192.168.1.153:8001
+RealPlayer sent successfully Play to 192.168.1.153:8001
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+cards size = 52 burn index = 35 index = 35
+RealPlayer sending Deal to 192.168.1.153:8001
+RealPlayer sent successfully Deal to 192.168.1.153:8001
+charlie.bot.server.RightBot lost the hand
+RealPlayer sending Lose to 192.168.1.153:8001
+RealPlayer sent successfully Lose to 192.168.1.153:8001
+shuffling burn index = 39
+Game over. Shoe size = 52
+RealPlayer sending GameOver to 192.168.1.153:8001
+RealPlayer sent successfully GameOver to 192.168.1.153:8001
+Game over. Shoe size = 52
+charlie.bot.server.LeftBot staying

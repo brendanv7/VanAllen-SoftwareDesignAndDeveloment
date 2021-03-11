@@ -1,0 +1,690 @@
+ant -f /Users/brendan/Desktop/charlie2 -Djavac.includes=charlie/GameFrame.java -Dnb.internal.action.name=run.single -Drun.class=charlie.GameFrame run-single
+init:
+Deleting: /Users/brendan/Desktop/charlie2/build/built-jar.properties
+deps-jar:
+Updating property file: /Users/brendan/Desktop/charlie2/build/built-jar.properties
+Compiling 1 source file to /Users/brendan/Desktop/charlie2/build/classes
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+compile-single:
+run-single:
+client started
+side bet view constructed
+successfully loaded side bet view
+init done
+sent login request
+received ticket BB20B45FD4D95138
+login successful
+Courier waiting for connection on port 8001
+Arriver sending Arrival to 127.0.0.1:1235
+Arriver sent successfully Arrival to 127.0.0.1:1235
+Arriver sent arrival message
+Courier accepted connection on port 8001
+Courier received message Ready
+Courier invoking listener for Ready
+received Ready from BVA.fios-router.home/192.168.1.153
+connected to courier with bankroll = 1000.0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 48
+starting hand: BVA.fios-router.home:YOU:4299AC5E0F3B3218
+starting hand: BVA.fios-router.home:DEALER:884609A46052B49
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H7 values = 7/7 hid = BVA.fios-router.home:YOU:4299AC5E0F3B3218
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:884609A46052B49
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 16/16 hid = BVA.fios-router.home:YOU:4299AC5E0F3B3218
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D9 values = 9/9 hid = BVA.fios-router.home:DEALER:884609A46052B49
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:4299AC5E0F3B3218
+Courier waiting for connection on port 8001
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C3 values = 19/19 hid = BVA.fios-router.home:YOU:4299AC5E0F3B3218
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:884609A46052B49
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 19/19 hid = BVA.fios-router.home:DEALER:884609A46052B49
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Push
+Courier invoking listener for Push
+received outcome = Push
+PUSH for hid = BVA.fios-router.home:YOU:4299AC5E0F3B3218 amt = 25.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 43
+num hands = 2 wins = 0 loses = 0 pushes = 1
+Courier waiting for connection on port 8001
+A. side bet amount 5 updated new amt = 5
+A. side bet amount 5 updated new amt = 10
+B. side bet amount cleared
+A. side bet amount 5 updated new amt = 5
+A. side bet amount 5 updated new amt = 10
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 43
+starting hand: BVA.fios-router.home:YOU:15ABCBA084630C05
+starting hand: BVA.fios-router.home:DEALER:65A9D81B93CA378B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H7 values = 7/7 hid = BVA.fios-router.home:YOU:15ABCBA084630C05
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:65A9D81B93CA378B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 16/16 hid = BVA.fios-router.home:YOU:15ABCBA084630C05
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D8 values = 8/8 hid = BVA.fios-router.home:DEALER:65A9D81B93CA378B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:15ABCBA084630C05
+Courier waiting for connection on port 8001
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C3 values = 19/19 hid = BVA.fios-router.home:YOU:15ABCBA084630C05
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:65A9D81B93CA378B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 18/18 hid = BVA.fios-router.home:DEALER:65A9D81B93CA378B
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = BVA.fios-router.home:YOU:15ABCBA084630C05 amt = 25.0
+side bet outcome = 30.0
+new bankroll = 1055.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 38
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 38
+starting hand: BVA.fios-router.home:YOU:6BC19CD0D0EA4AC9
+starting hand: BVA.fios-router.home:DEALER:70598CD09CDF2DBF
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H9 values = 9/9 hid = BVA.fios-router.home:YOU:6BC19CD0D0EA4AC9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:70598CD09CDF2DBF
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S7 values = 16/16 hid = BVA.fios-router.home:YOU:6BC19CD0D0EA4AC9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D8 values = 8/8 hid = BVA.fios-router.home:DEALER:70598CD09CDF2DBF
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:6BC19CD0D0EA4AC9
+Courier waiting for connection on port 8001
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C3 values = 19/19 hid = BVA.fios-router.home:YOU:6BC19CD0D0EA4AC9
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:70598CD09CDF2DBF
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 18/18 hid = BVA.fios-router.home:DEALER:70598CD09CDF2DBF
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = BVA.fios-router.home:YOU:6BC19CD0D0EA4AC9 amt = 25.0
+side bet outcome = -10.0
+new bankroll = 1070.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 33
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 33
+starting hand: BVA.fios-router.home:YOU:27D36F391F885250
+starting hand: BVA.fios-router.home:DEALER:E63674A22708FC3
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H7 values = 7/7 hid = BVA.fios-router.home:YOU:27D36F391F885250
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:E63674A22708FC3
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 16/16 hid = BVA.fios-router.home:YOU:27D36F391F885250
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D10 values = 10/10 hid = BVA.fios-router.home:DEALER:E63674A22708FC3
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:27D36F391F885250
+Courier waiting for connection on port 8001
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C3 values = 19/19 hid = BVA.fios-router.home:YOU:27D36F391F885250
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:E63674A22708FC3
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 20/20 hid = BVA.fios-router.home:DEALER:E63674A22708FC3
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Lose
+Courier invoking listener for Lose
+received outcome = Lose
+LOOSE for hid = BVA.fios-router.home:YOU:27D36F391F885250 amt = 25.0
+side bet outcome = 30.0
+new bankroll = 1075.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 28
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 28
+starting hand: BVA.fios-router.home:YOU:255728E3921ED2C8
+starting hand: BVA.fios-router.home:DEALER:469FC76704B1736A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H9 values = 9/9 hid = BVA.fios-router.home:YOU:255728E3921ED2C8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:469FC76704B1736A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S7 values = 16/16 hid = BVA.fios-router.home:YOU:255728E3921ED2C8
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D10 values = 10/10 hid = BVA.fios-router.home:DEALER:469FC76704B1736A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:255728E3921ED2C8
+Courier waiting for connection on port 8001
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C3 values = 19/19 hid = BVA.fios-router.home:YOU:255728E3921ED2C8
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:469FC76704B1736A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 20/20 hid = BVA.fios-router.home:DEALER:469FC76704B1736A
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Lose
+Courier invoking listener for Lose
+received outcome = Lose
+LOOSE for hid = BVA.fios-router.home:YOU:255728E3921ED2C8 amt = 25.0
+side bet outcome = -10.0
+new bankroll = 1040.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 23
+num hands = 2 wins = 0 loses = 1 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 23
+starting hand: BVA.fios-router.home:YOU:3354B60791409A5F
+starting hand: BVA.fios-router.home:DEALER:4CFA608E572A90C0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HK values = 10/10 hid = BVA.fios-router.home:YOU:3354B60791409A5F
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:4CFA608E572A90C0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HQ values = 20/20 hid = BVA.fios-router.home:YOU:3354B60791409A5F
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D8 values = 8/8 hid = BVA.fios-router.home:DEALER:4CFA608E572A90C0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:3354B60791409A5F
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:4CFA608E572A90C0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 18/18 hid = BVA.fios-router.home:DEALER:4CFA608E572A90C0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = BVA.fios-router.home:YOU:3354B60791409A5F amt = 25.0
+side bet outcome = 250.0
+new bankroll = 1315.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 19
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 19
+starting hand: BVA.fios-router.home:YOU:108C44823B2E6FB9
+starting hand: BVA.fios-router.home:DEALER:44765F840EEF6C5D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HK values = 10/10 hid = BVA.fios-router.home:YOU:108C44823B2E6FB9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:44765F840EEF6C5D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CQ values = 20/20 hid = BVA.fios-router.home:YOU:108C44823B2E6FB9
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D8 values = 8/8 hid = BVA.fios-router.home:DEALER:44765F840EEF6C5D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:108C44823B2E6FB9
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:44765F840EEF6C5D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 18/18 hid = BVA.fios-router.home:DEALER:44765F840EEF6C5D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = BVA.fios-router.home:YOU:108C44823B2E6FB9 amt = 25.0
+side bet outcome = -10.0
+new bankroll = 1330.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 15
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 15
+starting hand: BVA.fios-router.home:YOU:7F81983D2264BFB0
+starting hand: BVA.fios-router.home:DEALER:7D3C1B47095D0E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H8 values = 8/8 hid = BVA.fios-router.home:YOU:7F81983D2264BFB0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:7D3C1B47095D0E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H5 values = 13/13 hid = BVA.fios-router.home:YOU:7F81983D2264BFB0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D6 values = 6/6 hid = BVA.fios-router.home:DEALER:7D3C1B47095D0E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:7F81983D2264BFB0
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:7D3C1B47095D0E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 16/16 hid = BVA.fios-router.home:DEALER:7D3C1B47095D0E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 26/26 hid = BVA.fios-router.home:DEALER:7D3C1B47095D0E8D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = BVA.fios-router.home:YOU:7F81983D2264BFB0 amt = 25.0
+side bet outcome = 10.0
+new bankroll = 1365.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 10
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 10
+starting hand: BVA.fios-router.home:YOU:121C89CAB9BF6FCD
+starting hand: BVA.fios-router.home:DEALER:51F2A127AE742789
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H7 values = 7/7 hid = BVA.fios-router.home:YOU:121C89CAB9BF6FCD
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:51F2A127AE742789
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H6 values = 13/13 hid = BVA.fios-router.home:YOU:121C89CAB9BF6FCD
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D6 values = 6/6 hid = BVA.fios-router.home:DEALER:51F2A127AE742789
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:121C89CAB9BF6FCD
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:51F2A127AE742789
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 16/16 hid = BVA.fios-router.home:DEALER:51F2A127AE742789
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 26/26 hid = BVA.fios-router.home:DEALER:51F2A127AE742789
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = BVA.fios-router.home:YOU:121C89CAB9BF6FCD amt = 25.0
+side bet outcome = 30.0
+new bankroll = 1420.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 5
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
+side bet = 10
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 5
+starting hand: BVA.fios-router.home:YOU:3E258AF7D5D16BC5
+starting hand: BVA.fios-router.home:DEALER:44EE10998DF0507D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H6 values = 6/6 hid = BVA.fios-router.home:YOU:3E258AF7D5D16BC5
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 0/0 hid = BVA.fios-router.home:DEALER:44EE10998DF0507D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H8 values = 14/14 hid = BVA.fios-router.home:YOU:3E258AF7D5D16BC5
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D6 values = 6/6 hid = BVA.fios-router.home:DEALER:44EE10998DF0507D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:YOU:3E258AF7D5D16BC5
+Courier waiting for connection on port 8001
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = BVA.fios-router.home:DEALER:44EE10998DF0507D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 16/16 hid = BVA.fios-router.home:DEALER:44EE10998DF0507D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 26/26 hid = BVA.fios-router.home:DEALER:44EE10998DF0507D
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = BVA.fios-router.home:YOU:3E258AF7D5D16BC5 amt = 25.0
+side bet outcome = -10.0
+new bankroll = 1435.0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 0
+num hands = 2 wins = 1 loses = 0 pushes = 0
+Courier waiting for connection on port 8001
